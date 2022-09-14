@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+//to enable the CORS use the below annotation
+@CrossOrigin
 @RestController
 public class MyController {
     @Autowired
